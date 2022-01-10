@@ -1,4 +1,8 @@
-# Airplane-Prices
+# Korea Flight Prices: Project Overview
+* Web scraped airplane ticket prices using Selenium and "kayak.com"
+* Cleaned and split the data into sections for data visualization
+* Formed multiple box plots to discover the best time to buy airplane tickets
+* **Main Packages:** pandas, numpy, selenium, matplotlib, seaborn
 
 ## Purpose
 I am not sure if it is because I am Korean, but I love traveling to Korea. Because of this, I wanted to know the best time to buy a ticket to Korea for the cheapest price. I created a webscraping code to get the costs of a 1 week or less round trip to Korea and analyzed the data. The round trip is within 1 week, because I will start working soon and most work vacations are usually around 1-2 weeks. Of course this would not be useful right now, because covid enforces the 2-week quarantine. However, I hope this will be useful in the future.

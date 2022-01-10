@@ -1,12 +1,22 @@
 # Airplane-Prices
 
+## Purpose
 I am not sure if it is because I am Korean, but I love traveling to Korea. Because of this, I wanted to know the best time to buy a ticket to Korea for the cheapest price. I created a webscraping code to get the costs of a 1 week or less round trip to Korea and analyzed the data. The round trip is within 1 week, because I will start working soon and most work vacations are usually around 1-2 weeks. Of course this would not be useful right now, because covid enforces the 2-week quarantine. However, I hope this will be useful in the future.
 
 ## Key Findings
-Based on the analysis, I found that the price is much higher if the length of the round trip is 1 day and the trip departs on the month of June or December. The 1 day length round trip is even more expensive if the departure date is within 1 month of purchasing the ticket. The cheapest prices are also found if the round trip is only 4 days. Therefore, the recommended time to get a ticket based on the analysis is any month other than the first month of purchasing the ticket, December, or June and the trip should be a round trip of 4 days. A more indepth analysis can be found in the google colab.
+#### Note: These key findings are only referenced to round trip airplane ticket prices from LAX to SEL recorded in August 2021
+* One day round trips are more expensive than longer day roundtrips
+* June or December are much more expensive months
+* Cheapest prices are found in 4 day round trips
 
-The plot below show these results. The plot does not show two months of data, because the webscraping website only gives 330 future days of data from the day collecting the data.
-![ex plot](https://user-images.githubusercontent.com/43764400/133178026-10625792-a907-428f-9c77-e644a4042b0b.png)
+
+## Plots of Key Findings:
+#### Note:
+* Only 330 days of data can be collected, so July and August are missing
+* If you are in github dark theme mode, you will not be able to see the black labels of the plot
+
+![ex plot](https://github.com/jjkcoding/Airplane-Prices/blob/main/images/airplane_prices_day_diff.png)
+![ex plot](https://github.com/jjkcoding/Airplane-Prices/blob/main/images/airplane_prices_month.png)
 
 ## What I learned
 I learned how to web scrape using Selenium and was able to manipulate the data to a readable format (data frames). I was also able to learn how to create better looking boxplots and include interactions of the categories into the boxplots. There is still much to learn on graphing in Python and looking forward to the future in learning how to plot these type of datasets.

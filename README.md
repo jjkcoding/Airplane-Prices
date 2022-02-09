@@ -10,7 +10,7 @@ I am not sure if it is because I am Korean, but I love traveling to Korea. Becau
 ## Key Findings
 #### Note: These key findings are only referenced to round trip airplane ticket prices from LAX to SEL recorded in August 2021
 * One day round trips are more expensive than longer day roundtrips
-* June or December are much more expensive months
+* June and December are much more expensive months
 * Cheapest prices are found in 4 day round trips
 
 
